@@ -1,7 +1,7 @@
 {
   "package": {
     "name": "@deep-foundation/deepmemo-links",
-    "version": "0.0.1"
+    "version": "0.0.2"
   },
   "data": [
     {
@@ -50,7 +50,7 @@
       "to": 3
     },
     {
-      "id": "handleUpdatePosition",
+      "id": "handleUpdateDevice",
       "type": 4,
       "from": "Device",
       "to": 5
@@ -67,9 +67,9 @@
     },
     {
       "id": "positionValue",
-      "type": 4,
+      "type": 2,
       "from": "Position",
-      "to": 5
+      "to": 3
     }
   ],
   "errors": [],
