@@ -1,0 +1,20 @@
+{
+  "name": "@deep-foundation/deepmemo-links",
+  "type": "module",
+  "keywords": [
+    "deep-package",
+    "capacitor",
+    "deep",
+    "deep-foundation"
+  ],
+  "version": "0.0.1",
+  "description": "Links of deepmemo for deep.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deep-foundation/deepmemo-links"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "@deep-foundation/core": "~0.0.2"
+  }
+}

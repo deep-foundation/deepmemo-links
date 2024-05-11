@@ -1,0 +1,86 @@
+{
+  "package": {
+    "name": "@deep-foundation/deepmemo-links",
+    "version": "0.0.1"
+  },
+  "data": [
+    {
+      "package": {
+        "dependencyId": 0,
+        "containValue": "Type"
+      },
+      "id": 1
+    },
+    {
+      "package": {
+        "dependencyId": 0,
+        "containValue": "Value"
+      },
+      "id": 2
+    },
+    {
+      "package": {
+        "dependencyId": 0,
+        "containValue": "Object"
+      },
+      "id": 3
+    },
+    {
+      "package": {
+        "dependencyId": 0,
+        "containValue": "HandleUpdate"
+      },
+      "id": 4
+    },
+    {
+      "package": {
+        "dependencyId": 1,
+        "containValue": "updateHandler"
+      },
+      "id": 5
+    },
+    {
+      "id": "Device",
+      "type": 1
+    },
+    {
+      "id": "deviceValue",
+      "type": 2,
+      "from": "Device",
+      "to": 3
+    },
+    {
+      "id": "handleUpdatePosition",
+      "type": 4,
+      "from": "Device",
+      "to": 5
+    },
+    {
+      "id": "Position",
+      "type": 1
+    },
+    {
+      "id": "handleUpdatePosition",
+      "type": 4,
+      "from": "Position",
+      "to": 5
+    },
+    {
+      "id": "positionValue",
+      "type": 4,
+      "from": "Position",
+      "to": 5
+    }
+  ],
+  "errors": [],
+  "dependencies": [
+    {
+      "name": "@deep-foundation/core",
+      "version": "0.0.2"
+    },
+    {
+      "name": "@deep-foundation/object-to-links-async-converter",
+      "version": "0.0.1-dev.5"
+    }
+  ]
+}
